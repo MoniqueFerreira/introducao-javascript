@@ -2,19 +2,13 @@
 
 <html>
 	<head>
-		<meta charset="utf-8">
-	
-		<title>Javascript</title>
-		
-		<script>
-			function myfunction() {
-				document.getElementById("demo").innerHTML = Date();
-				}
-		</script>
+		<title>Botões e Imagens</title>
+		<script src="js/funcoes.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>	
 	<body>
-		<button onclick="myfunction()">Clique aqui!</button>
-		<p id="demo"></p>
+		<button id="botao_imagem" onclick="trocaImagem()">Imagem 1</button>
+		<button id="botao_imagem" onclick="imagemTroca()">Imagem 2</button>
+		<img id="myImage" src="img/rc2.gif">
 	</body>
-	
-	
 </html>	
