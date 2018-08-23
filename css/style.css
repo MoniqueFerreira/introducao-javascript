@@ -3,4 +3,18 @@
 	top: 100px;
 	left: 27%;
 	width: 1000px;
+	
+}	
+body {
+background-color: #4A7470;
+}
+#botao_imagem {
+	background-color: #000000;
+	color: white;
+}	
+#demo:hover {
+	border: 2px solid;
+	border-color: white;
+	transition: width 5s;
+	
 }	
