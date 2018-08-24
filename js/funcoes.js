@@ -16,10 +16,12 @@ function ocultarElemento() {
 function mostrarElemento() {
 	document.getElementById("demo").style.display="block";
 }
-function calcular() {
-	document.getElementById("demo").innerHTML= document.getElementById("num1").value * document.getElementById("num2").value;
+function calcular1() {
+	var total2 = document.getElementById("num1").value * document.getElementById("num2").value;
+	window.alert(total2);
 }
-function calcular() {
-	document.getElementById("demo").innerHTML= parseFloat(document.getElementById("num3").value) + parseFloat(document.getElementById("num4").value);
+function calcular2() {
+	var total = parseFloat(document.getElementById("num3").value) + parseFloat(document.getElementById("num4").value);
+	window.alert(total);
 }
 
