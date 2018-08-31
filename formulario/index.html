@@ -11,10 +11,11 @@
 	<div id="form">	
 		<form action="">
 		Nome:<br><input type="text" name="nome" value="" size="35px" pattern="[a-z\s]+$" required="yes"><br>
-		Sobrenome:<br><input type="text" name="sobrenome" value="" size="35px"><br><br>
-		Sexo: Masculino<input type="radio" name="sexo" value="masculino"> Feminino<input type="radio" name="sexo" value="feminino"><br>
+		Sobrenome:<br><input type="text" name="sobrenome" value="" size="35px" pattern="[a-z\s]+$" required="yes"><br><br>
+		Gênero: Masculino<input type="radio" name="Gênero" value="masculino"> Feminino<input type="radio" name="Gênero" value="feminino"> Outro<input type="radio" name="Gênero" value="Outro"><br>
+		Como gostaria de ser chamado? Ele<input type="radio" name="Como gostaria de ser chamado?" value="Ele"> Ela<input type="radio" name="Como gostaria de ser chamado?" value="Ele">
 		<p>Qual o ano do seu nascimento?<br>
-		<input type="button" id="btnCarregar" onclick="ano()" value="Carregar combobox" />		
+		<input type="button" id="btnCarregar" onclick="ano()" value="Clique para informar o ano" />		
 		<select name="data_nasc" id="data_nasc">
 		</select><br>
 		<!--
@@ -28,12 +29,15 @@
 		<p>Qual a data do seu aniversário?<br>
 		<input type="date" name="data_aniversario"><br></p>
 		<p>Assinale os itens de maior consumo:<br>
-		<input type="checkbox" name="chocolate" value="chocolate"> Chocolate<br>
-		<input type="checkbox" name="refrigerante" value="refrigerante"> Refrigerante<br></p>
+		<input type="checkbox" name="Anime" value="Anime">Anime<br>
+		<input type="checkbox" name="Mangá" value="Mangá">Mangá<br>
+		<input type="checkbox" name="Jogos" value="Jogos">Jogos<br>
+		<input type="checkbox" name="Séries" value="Séries">Séries<br>
+		<input type="checkbox" name="Filmes" value="Filmes">Filmes<br>
 		<p>Digite o seu e-mail:<br>
-		<input type="email" name="email"<br>
+		<input type="email" name="email" size="35.5px"<br>
 		<p>Digite uma mensagem:<br>
-		<textarea name="message" rows="10" cols="30" size="40px"></textarea><br><br>	
+		<textarea name="message" rows="10" cols="30"></textarea><br><br>	
 		<input type="submit" value="Enviar">
 		</form>
 	</body>
